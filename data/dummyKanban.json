@@ -1,0 +1,50 @@
+[
+    {
+        "id": "K-000000001",
+        "title": "Update information in footer section",
+        "label": "UPDATE",
+        "labelColor": "success",
+        "progress": 45,
+        "progressColor": "success",
+        "dueDate": "2026-03-01T00:00:00.000Z",
+        "status": "todo",
+        "createdAt": "2026-03-01T00:00:00.000Z",
+        "updatedAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+        "id": "K-000000002",
+        "title": "Fix login authentication bug",
+        "label": "BUG",
+        "labelColor": "danger",
+        "progress": 70,
+        "progressColor": "danger",
+        "dueDate": "2026-03-01T00:00:00.000Z",
+        "status": "progress",
+        "createdAt": "2026-03-01T00:00:00.000Z",
+        "updatedAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+        "id": "K-000000003",
+        "title": "Create mobile responsive layout",
+        "label": "FEATURE",
+        "labelColor": "primary",
+        "progress": 20,
+        "progressColor": "primary",
+        "dueDate": "2026-03-01T00:00:00.000Z",
+        "status": "review",
+        "createdAt": "2026-03-01T00:00:00.000Z",
+        "updatedAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+        "id": "K-000000004",
+        "title": "Create mobile responsive layout",
+        "label": "FEATURE",
+        "labelColor": "primary",
+        "progress": 20,
+        "progressColor": "primary",
+        "dueDate": "2026-03-01T00:00:00.000Z",
+        "status": "done",
+        "createdAt": "2026-03-01T00:00:00.000Z",
+        "updatedAt": "2026-03-01T00:00:00.000Z"
+    }
+]

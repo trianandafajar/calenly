@@ -1,0 +1,42 @@
+[
+    {
+        "id": "CE-000000001",
+        "eventName": "New Theme Release",
+        "eventCategory": "primary",
+        "start": "2026-02-02",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "CE-000000002",
+        "eventName": "Meet manager",
+        "eventCategory": "danger",
+        "start": "2026-02-12",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "CE-000000003",
+        "eventName": "Create New theme",
+        "eventCategory": "info",
+        "start": "2026-02-28",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "CE-000000004",
+        "eventName": "Project Launch",
+        "eventCategory": "dark",
+        "start": "2026-02-08",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "CE-000000005",
+        "eventName": "Meeting",
+        "eventCategory": "secondary",
+        "start": "2026-02-20",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    }
+]

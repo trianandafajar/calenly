@@ -1,0 +1,152 @@
+[
+    {
+        "id": "B-000000001",
+        "title": "Cara Membuat Website dengan Next.js",
+        "slug": "cara-membuat-website-nextjs",
+        "excerpt": "Panduan lengkap membangun website modern menggunakan Next.js.",
+        "content": "<h2>Pendahuluan</h2><p>Next.js adalah framework React yang powerful untuk membuat website modern.</p><h2>Keunggulan</h2><ul><li>SEO Friendly</li><li>Server Side ReB-000000001dering</li><li>Routing Otomatis</li></ul>",
+        "author": "admin@gmail.com",
+        "categories": [
+            "Programming",
+            "Next.js"
+        ],
+        "tags": [
+            "nextjs",
+            "react",
+            "frontend"
+        ],
+        "status": "published",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": "2026-02-19T10:00:00",
+        "seo": {
+            "metaTitle": "Cara Membuat Website dengan Next.js | Blog Udin",
+            "keywords": "nextjs",
+            "description": "Belajar membuat website modern menggunakan Next.js."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog1.jpg",
+        "createdAt": "2026-02-18T08:00:00",
+        "updatedAt": "2026-02-19T09:30:00"
+    },
+    {
+        "id": "B-000000002",
+        "title": "Belajar React untuk Pemula",
+        "slug": "belajar-react-untuk-pemula",
+        "excerpt": "Dasar-dasar React untuk kamu yang baru mulai belajar frontend.",
+        "content": "<h2>Apa itu React?</h2><p>React adalah library JavaScript untuk membangun user interface.</p><h3>Konsep Dasar</h3><ul><li>Component</li><li>Props</li><li>State</li></ul>",
+        "author": "udin.dev@gmail.com",
+        "categories": [
+            "Programming",
+            "React"
+        ],
+        "tags": [
+            "react",
+            "javascript",
+            "frontend"
+        ],
+        "status": "published",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": "2026-02-18T14:00:00",
+        "seo": {
+            "metaTitle": "Belajar React untuk Pemula | Blog Udin",
+            "keywords": "react",
+            "description": "Panduan belajar React dari dasar hingga paham konsep component."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog2.jpg",
+        "createdAt": "2026-02-17T10:00:00",
+        "updatedAt": "2026-02-18T13:00:00"
+    },
+    {
+        "id": "B-000000003",
+        "title": "Tips Optimasi SEO untuk Blog",
+        "slug": "tips-optimasi-seo-blog",
+        "excerpt": "Strategi sederhana agar blog kamu muncul di halaman pertama Google.",
+        "content": "<h2>Pentingnya SEO</h2><p>SEO membantu website kamu lebih mudah ditemukan.</p><h3>Tips</h3><ul><li>Gunakan heading yang benar</li><li>Optimasi meta description</li><li>Gunakan keyword relevan</li></ul>",
+        "author": "admin@gmail.com",
+        "categories": [
+            "SEO",
+            "Marketing"
+        ],
+        "tags": [
+            "seo",
+            "google",
+            "blogging"
+        ],
+        "status": "draft",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": null,
+        "seo": {
+            "metaTitle": "Tips Optimasi SEO untuk Blog | Blog Udin",
+            "keywords": "seo",
+            "description": "Pelajari cara optimasi SEO agar blog kamu naik ranking."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog3.jpg",
+        "createdAt": "2026-02-16T09:00:00",
+        "updatedAt": "2026-02-17T11:00:00"
+    },
+    {
+        "id": "B-000000004",
+        "title": "Mengenal Tailwind CSS",
+        "slug": "mengenal-tailwind-css",
+        "excerpt": "Framework CSS utility-first yang mempercepat proses styling.",
+        "content": "<h2>Apa itu Tailwind?</h2><p>Tailwind CSS adalah framework utility-first untuk styling cepat.</p><h3>Kelebihan</h3><ul><li>Customizable</li><li>Responsive</li><li>Ringan</li></ul>",
+        "author": "farid.tecB-000000001@gmail.com",
+        "categories": [
+            "CSS",
+            "Frontend"
+        ],
+        "tags": [
+            "tailwind",
+            "css",
+            "frontend"
+        ],
+        "status": "published",
+        "visibility": "private",
+        "password": null,
+        "publishedAt": "2026-02-15T16:00:00",
+        "seo": {
+            "metaTitle": "Mengenal Tailwind CSS | Blog Udin",
+            "keywords": "tailwind",
+            "description": "Belajar dasar Tailwind CSS untuk mempercepat styling website."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog4.jpg",
+        "createdAt": "2026-02-14T10:00:00",
+        "updatedAt": "2026-02-15T15:00:00"
+    },
+    {
+        "id": "B-000000005",
+        "title": "Membangun CMS Sederhana dengan Next.js",
+        "slug": "membangun-cms-sederhana-nextjs",
+        "excerpt": "Tutorial membuat sistem manajemen konten sederhana menggunakan Next.js.",
+        "content": "<h2>CMS dengan Next.js</h2><p>Kita bisa membuat CMS custom menggunakan API route dan database.</p><h3>Fitur</h3><ul><li>CRUD Post</li><li>Authentication</li><li>SEO Support</li></ul>",
+        "author": "udin.dev@gmail.com",
+        "categories": [
+            "Next.js",
+            "Backend"
+        ],
+        "tags": [
+            "nextjs",
+            "cms",
+            "fullstack"
+        ],
+        "status": "published",
+        "visibility": "password",
+        "password": "12345",
+        "publishedAt": "2026-02-19T12:00:00",
+        "seo": {
+            "metaTitle": "Membangun CMS dengan Next.js | Blog Udin",
+            "keywords": "nextjs",
+            "description": "Panduan membuat CMS sederhana menggunakan Next.js."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog5.jpg",
+        "createdAt": "2026-02-18T12:00:00",
+        "updatedAt": "2026-02-19T11:00:00"
+    }
+]

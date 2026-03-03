@@ -1,0 +1,29 @@
+/*=========================
+	All css
+==========================*/
+@import url("../plugins/bootstrap/css/bootstrap.min.css");
+@import url("../plugins/flaticon/flaticon.css");
+@import url("../plugins/fontawesome/css/font-awesome.min.css");
+@import url("../plugins/line-awesome/css/line-awesome.min.css");
+@import url("../plugins/themify/themify-icons.css");
+@import url("../plugins/owl-carousel/owl.carousel.css");
+@import url("../plugins/bootstrap-select/bootstrap-select.min.css");
+@import url("../plugins/animate/animate.css");
+@import url("../plugins/magnific-popup/magnific-popup.css");
+@import url("../plugins/lightgallery/css/lightgallery.min.css");
+
+/*=========================
+	All css
+==========================*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700|Muli:200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900|Rubik:300,400,500,700,900');
+
+
+/* 
+    font-family: 'Muli', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	
+*/
+

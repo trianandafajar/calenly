@@ -1,0 +1,47 @@
+[
+    {
+        "id": "C-000000001",
+        "name": "Jakob Gouse",
+        "company": "Highspeed Inc.",
+        "occupation": "UI Designer",
+        "phone": "1122334455",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "C-000000002",
+        "name": "Alan Green",
+        "company": "Tech Solutions",
+        "occupation": "Front-end Developer",
+        "phone": "1122334455",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "C-000000003",
+        "name": "Samantha Lee",
+        "company": "Creative Studio",
+        "occupation": "UX Designer",
+        "phone": "1122334455",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "C-000000004",
+        "name": "Alexandra Cleveland",
+        "company": "Bishop Studio",
+        "occupation": "UI Designer",
+        "phone": "1122334455",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    },
+    {
+        "id": "C-000000005",
+        "name": "Dora Cole",
+        "company": "Blair Studio",
+        "occupation": "Web Developer",
+        "phone": "1122334455",
+        "createdAt": "2026-02-16T09:00:00.000Z",
+        "updatedAt": "2026-02-16T09:00:00.000Z"
+    }
+]
