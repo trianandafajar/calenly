@@ -1,5 +1,6 @@
 "use client"
 
+import { ro } from "date-fns/locale"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
@@ -17,7 +18,7 @@ export default function Header() {
     }
 
     const signup = () => {
-        window.location.href = "/auth/register"
+        router.push("/auth/register")
     }
     
     return (

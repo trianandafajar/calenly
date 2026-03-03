@@ -1,9 +1,9 @@
 "use client"
 
-import Footer from "@/app/landing-page/components/footer";
-import Header from "@/app/landing-page/components/header";
+import Footer from "@/app/(landing-page)/components/footer";
+import Header from "@/app/(landing-page)/components/header";
 
-import SliderBanner from "@/app/landing-page/components/sliderBanner";
+import SliderBanner from "@/app/(landing-page)/components/sliderBanner";
 
 export default function page() {
 
