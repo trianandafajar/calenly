@@ -1,8 +1,29 @@
 "use client"
 declare const bootstrap: any;
 import Link from "next/link"
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+    const pathname = usePathname();
+
+    const titles = {
+        "/dashboard": "Dashboard",
+        "/dashboard/blogs": "Blog",
+        "/dashboard/projects": "Projects",
+        "/dashboard/contacts": "Contacts",
+        "/dashboard/calendar": "Calendar",
+        "/dashboard/kanban": "Task",
+        "/dashboard/blogs/add-blog": "Add Blog",
+        "/dashboard/blogs/blog-categories": "Blog Categories"
+    };
+
+    let pageTitle = "Dashboard";
+
+    for (const path of Object.keys(titles) as Array<keyof typeof titles>) {
+        if (pathname.startsWith(path)) {
+            pageTitle = titles[path];
+        }
+    }
 
     const logout = () => {
         const modalEl = document.getElementById("modalLogout");
@@ -48,7 +69,7 @@ export default function Header() {
                         <div className="collapse navbar-collapse justify-content-between">
                             <div className="header-left">
                                 <div className="dashboard_bar">
-                                    Dashboard
+                                    {pageTitle}
                                 </div>
                             </div>
                             <ul className="navbar-nav header-right">

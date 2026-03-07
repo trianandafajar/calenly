@@ -34,33 +34,15 @@ export default function page() {
                                                     <div className="card-tabs mt-sm-0 me-3">
                                                         <ul className="nav nav-tabs">
                                                             <li className="nav-item">
-                                                                <button
-                                                                    type="button"
-                                                                    className={`nav-link ${activeTab === "monthly" ? "active" : ""}`}
-                                                                    onClick={() => setActiveTab("monthly")}
-                                                                >
-                                                                    Monthly
-                                                                </button>
+                                                                <a className="nav-link active" data-bs-toggle="tab" href="#monthly" role="tab">Monthly</a>
                                                             </li>
 
                                                             <li className="nav-item">
-                                                                <button
-                                                                    type="button"
-                                                                    className={`nav-link ${activeTab === "weekly" ? "active" : ""}`}
-                                                                    onClick={() => setActiveTab("weekly")}
-                                                                >
-                                                                    Weekly
-                                                                </button>
+                                                                <a className="nav-link" data-bs-toggle="tab" href="#weekly" role="tab">Weekly</a>
                                                             </li>
 
                                                             <li className="nav-item">
-                                                                <button
-                                                                    type="button"
-                                                                    className={`nav-link ${activeTab === "today" ? "active" : ""}`}
-                                                                    onClick={() => setActiveTab("today")}
-                                                                >
-                                                                    Today
-                                                                </button>
+                                                                <a className="nav-link" data-bs-toggle="tab" href="#today" role="tab">Today</a>
                                                             </li>
                                                         </ul>
                                                     </div>
