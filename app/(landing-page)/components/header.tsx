@@ -3,9 +3,25 @@
 import { ro } from "date-fns/locale"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function Header() {
+    const [isLoggedIn, setIsLoggedIn] = useState(false)
+    const [username, setUsername] = useState("")
+    useEffect(() => {
+        const session = localStorage.getItem("session")
+
+        if (session) {
+            const sessionData = JSON.parse(session)
+
+            if (sessionData.isLoggedIn) {
+                setUsername(sessionData?.username)
+                setIsLoggedIn(true)
+            }
+        }
+
+    }, [])
+
     const [keyword, setKeyword] = useState("")
     const router = useRouter()
 
@@ -17,10 +33,10 @@ export default function Header() {
         return router.push(`/#${encodeURIComponent(keyword)}`)
     }
 
-    const signup = () => {
-        router.push("/auth/register")
+    const login = () => {
+        window.location.href = "/auth/login"
     }
-    
+
     return (
         <div>
             <header className="site-header header-transparent header mo-left">
@@ -41,8 +57,7 @@ export default function Header() {
                             {/* <!-- extra nav --> */}
                             <div className="extra-nav">
                                 <div className="extra-cell">
-                                    <button onClick={signup} className="btn outline radius-xl btn-sign btn-aware">Sign up <span></span></button>
-
+                                    <button onClick={login} className="btn outline radius-xl btn-sign btn-aware">{isLoggedIn ? username : "Login"} <span></span></button>
                                     <button id="quik-search-btn" type="button" className="btn-link btn-search text-secondry"><i className="fa fa-search"></i></button>
                                 </div>
                             </div>
