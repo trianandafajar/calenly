@@ -273,7 +273,7 @@ export default function page() {
         // if (!selectedDate) return;
 
         const payload = {
-            id: null,
+            id: "CE-" + String(Date.now()).slice(-9),
             eventName,
             start: selectedDate || null,
             end: selectedEndDate || null,
