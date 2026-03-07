@@ -308,44 +308,61 @@ export default function page() {
                                 <div className="item">
                                     <div className="blog-post blog-grid text-center bg-white shadow wow fadeInUp" data-wow-delay="0.2s">
                                         <div className="dlab-post-media dlab-img-effect">
-                                            <a href="#"><img src="/landingpage/images/blog/grid/pic1.jpg" alt="" /></a>
+                                            <a href="#"><img src="/landingpage/images/blog/grid/pic1.jpg" alt="Snowman Crochet Pattern" /></a>
                                         </div>
                                         <div className="dlab-info">
                                             <div className="dlab-post-title">
-                                                <h4 className="post-title"><a href="#">Melting Snowman Doll – Crochet Pattern</a></h4>
+                                                <h4 className="post-title">
+                                                    <a href="#">Melting Snowman Doll – Crochet Pattern</a>
+                                                </h4>
                                             </div>
                                             <div className="dlab-post-text">
-                                                <p>pellentesque eu, pretium quis, sem. Nulla consequat massa qui enim.</p>
+                                                <p>
+                                                    Discover a fun and creative crochet pattern for making a cute melting snowman doll.
+                                                    Perfect for winter decorations or handmade gifts.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="item">
                                     <div className="blog-post blog-grid text-center bg-white shadow wow fadeInUp" data-wow-delay="0.4s">
                                         <div className="dlab-post-media dlab-img-effect">
-                                            <a href="#"><img src="/landingpage/images/blog/grid/pic2.jpg" alt="" /></a>
+                                            <a href="#"><img src="/landingpage/images/blog/grid/pic2.jpg" alt="Improve Productivity" /></a>
                                         </div>
                                         <div className="dlab-info">
                                             <div className="dlab-post-title">
-                                                <h4 className="post-title"><a href="#">Multiplying the Effectiveness of Your </a></h4>
+                                                <h4 className="post-title">
+                                                    <a href="#">Multiplying the Effectiveness of Your Work</a>
+                                                </h4>
                                             </div>
                                             <div className="dlab-post-text">
-                                                <p>pellentesque eu, pretium quis, sem. Nulla consequat massa qui enim.</p>
+                                                <p>
+                                                    Learn practical strategies to improve productivity and get better results
+                                                    by managing your time and tasks more effectively.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="item">
                                     <div className="blog-post blog-grid text-center bg-white shadow wow fadeInUp" data-wow-delay="0.6s">
                                         <div className="dlab-post-media dlab-img-effect">
-                                            <a href="#"><img src="/landingpage/images/blog/grid/pic3.jpg" alt="" /></a>
+                                            <a href="#"><img src="/landingpage/images/blog/grid/pic3.jpg" alt="Content Quality" /></a>
                                         </div>
                                         <div className="dlab-info">
                                             <div className="dlab-post-title">
-                                                <h4 className="post-title"><a href="#">When is Medium Quality Content Just Right?</a></h4>
+                                                <h4 className="post-title">
+                                                    <a href="#">When Is Medium-Quality Content the Right Choice?</a>
+                                                </h4>
                                             </div>
                                             <div className="dlab-post-text">
-                                                <p>pellentesque eu, pretium quis, sem. Nulla consequat massa qui enim.</p>
+                                                <p>
+                                                    Not every project requires perfect content. Explore when medium-quality
+                                                    content can still provide value and meet your goals efficiently.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
