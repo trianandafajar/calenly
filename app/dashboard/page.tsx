@@ -171,7 +171,7 @@ export default function page() {
                                                     <p className="mb-0">Lorem ipsum dolor sit amet</p>
                                                 </div>
                                                 <div>
-                                                    <a href=";" className="btn btn-outline-primary btn-rounded">View More</a>
+                                                    <a href="#" className="btn btn-outline-primary btn-rounded">View More</a>
                                                 </div>
                                             </div>
                                             <div className="card-body px-0 pt-2">
@@ -423,7 +423,7 @@ export default function page() {
 
                                                     </div>
                                                     <div className="card-footer border-0 pt-0">
-                                                        <a href=";" className="btn btn-outline-primary btn-rounded d-block">Update Progress</a>
+                                                        <a href="#" className="btn btn-outline-primary btn-rounded d-block">Update Progress</a>
 
                                                     </div>
                                                 </div>
@@ -525,7 +525,7 @@ export default function page() {
                                                         <hr />
                                                     </div>
                                                     <div className="card-footer pt-0 border-0">
-                                                        <a href=";" className="btn btn-outline-primary btn-rounded d-block">Pin other projects</a>
+                                                        <a href="#" className="btn btn-outline-primary btn-rounded d-block">Pin other projects</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -539,7 +539,7 @@ export default function page() {
                                                     <p className="mb-0">Lorem ipsum dolor sit amet</p>
                                                 </div>
                                                 <div>
-                                                    <a href=";" className="btn btn-primary btn-rounded" data-bs-toggle="modal" data-bs-target="#sendMessageModal" >+ New Messages</a>
+                                                    <a href="#" className="btn btn-primary btn-rounded" data-bs-toggle="modal" data-bs-target="#sendMessageModal" >+ New Messages</a>
                                                 </div>
                                             </div>
                                             <div className="card-body px-0 pt-0">

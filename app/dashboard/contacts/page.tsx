@@ -187,9 +187,9 @@ export default function page() {
                                                 <h5 className="mb-0"><a href="app-profile.html" className="text-black user-name" data-name={contact.name}>{contact.name}</a></h5>
                                                 <p className=" mb-3" data-occupation={contact.occupation}>{contact.company}</p>
                                                 <ul>
-                                                    <li><Link href=";"><i className="fas fa-phone-alt"></i></Link></li>
-                                                    <li><Link href=";"><i className="far fa-comment-alt"></i></Link></li>
-                                                    <li><Link href=";"><i className="fas fa-video"></i></Link></li>
+                                                    <li><Link href="#"><i className="fas fa-phone-alt"></i></Link></li>
+                                                    <li><Link href="#"><i className="far fa-comment-alt"></i></Link></li>
+                                                    <li><Link href="#"><i className="fas fa-video"></i></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
