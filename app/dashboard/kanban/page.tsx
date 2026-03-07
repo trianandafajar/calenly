@@ -552,7 +552,7 @@ export default function Page() {
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title">Delete Contact</h5>
+                            <h5 className="modal-title">Delete Task</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div className="modal-body">Are you sure you want to delete this taks?</div>
