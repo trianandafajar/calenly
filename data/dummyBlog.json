@@ -1,10 +1,70 @@
 [
     {
-        "id": "B-000000001",
-        "title": "Cara Membuat Website dengan Next.js",
-        "slug": "cara-membuat-website-nextjs",
-        "excerpt": "Panduan lengkap membangun website modern menggunakan Next.js.",
-        "content": "<h2>Pendahuluan</h2><p>Next.js adalah framework React yang powerful untuk membuat website modern.</p><h2>Keunggulan</h2><ul><li>SEO Friendly</li><li>Server Side ReB-000000001dering</li><li>Routing Otomatis</li></ul>",
+        "id": "B-000000002",
+        "title": "Designing an Effective SaaS Dashboard for Better User Experience",
+        "slug": "designing-effective-saas-dashboard",
+        "excerpt": "Learn how to design a SaaS dashboard that improves usability, data clarity, and user productivity.",
+        "content": "<h2>Introduction</h2><p>A SaaS dashboard is the central hub where users interact with data, analytics, and core features of a product. A well-designed dashboard helps users understand information quickly and perform actions efficiently.</p><h2>Key Elements of a Good Dashboard</h2><ul><li><strong>Clear Data Visualization</strong> – Use charts, graphs, and cards to present information clearly.</li><li><strong>Minimal Layout</strong> – Avoid clutter so users can focus on the most important metrics.</li><li><strong>Responsive Design</strong> – Ensure the dashboard works smoothly on desktop, tablet, and mobile devices.</li></ul><h2>Best Practices</h2><p>When designing a dashboard, always prioritize the most critical metrics at the top of the page. This helps users quickly understand the state of their system. Use consistent colors, spacing, and typography to maintain visual clarity.</p><p>Additionally, interactive components such as filters, date selectors, and quick actions can greatly improve the overall usability of a SaaS dashboard.</p>",
+        "author": "admin@gmail.com",
+        "categories": [
+            "SaaS",
+            "UI/UX"
+        ],
+        "tags": [
+            "dashboard",
+            "saas",
+            "ux"
+        ],
+        "status": "published",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": "2026-02-10",
+        "seo": {
+            "metaTitle": "Designing an Effective SaaS Dashboard | Blog Udin",
+            "keywords": "saas dashboard design",
+            "description": "Learn how to design an effective SaaS dashboard for better user experience and productivity."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog2.jpg",
+        "createdAt": "2026-02-08",
+        "updatedAt": "2026-02-09"
+    },
+    {
+        "id": "B-000000003",
+        "title": "Essential Metrics Every SaaS Dashboard Should Display",
+        "slug": "essential-metrics-saas-dashboard",
+        "excerpt": "Discover the most important metrics that should appear on every SaaS dashboard.",
+        "content": "<h2>Introduction</h2><p>A SaaS dashboard is only useful if it displays meaningful metrics. These metrics help businesses understand performance, user behavior, and product growth.</p><h2>Important Metrics</h2><ul><li><strong>Monthly Recurring Revenue (MRR)</strong> – The most critical metric for subscription-based businesses.</li><li><strong>Active Users</strong> – Shows how many users are actively using the platform.</li><li><strong>Customer Churn Rate</strong> – Indicates how many customers stop using the service.</li><li><strong>Conversion Rate</strong> – Measures how many visitors become paying users.</li></ul><h2>How to Display Metrics Effectively</h2><p>Use visual components like charts, graphs, and metric cards to highlight important numbers. Place the most important metrics at the top of the dashboard to ensure they are easily visible.</p><p>Providing trend indicators such as percentage increases or decreases also helps users quickly understand performance changes.</p>",
+        "author": "admin@gmail.com",
+        "categories": [
+            "SaaS",
+            "Analytics"
+        ],
+        "tags": [
+            "metrics",
+            "analytics",
+            "dashboard"
+        ],
+        "status": "published",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": "2026-02-10",
+        "seo": {
+            "metaTitle": "Essential Metrics for SaaS Dashboards | Blog Udin",
+            "keywords": "saas metrics",
+            "description": "Learn about the most important metrics every SaaS dashboard should display."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog3.jpg",
+        "createdAt": "2026-02-08",
+        "updatedAt": "2026-02-09"
+    },
+    {
+        "id": "B-000000004",
+        "title": "How to Build a SaaS Dashboard Using Next.js",
+        "slug": "build-saas-dashboard-nextjs",
+        "excerpt": "A step-by-step guide to building a modern SaaS dashboard using Next.js and modern tools.",
+        "content": "<h2>Introduction</h2><p>Next.js is a powerful framework for building modern web applications. It is widely used for SaaS dashboards because it provides great performance, SEO support, and scalable architecture.</p><h2>Project Structure</h2><p>A typical SaaS dashboard project using Next.js may include the following structure:</p><ul><li>Components for UI elements such as cards, charts, and tables.</li><li>Pages or app routes for dashboard sections.</li><li>API routes for handling server logic.</li></ul><h2>Useful Tools</h2><ul><li>Tailwind CSS for styling</li><li>Supabase for database and authentication</li><li>Chart libraries like Recharts or Chart.js</li></ul><h2>Conclusion</h2><p>Combining Next.js with modern UI frameworks allows developers to build fast and scalable SaaS dashboards. With proper architecture, the dashboard can handle analytics, user management, and various business features efficiently.</p>",
         "author": "admin@gmail.com",
         "categories": [
             "Programming",
@@ -12,141 +72,81 @@
         ],
         "tags": [
             "nextjs",
-            "react",
-            "frontend"
+            "dashboard",
+            "saas"
         ],
         "status": "published",
         "visibility": "public",
         "password": null,
-        "publishedAt": "2026-02-19T10:00:00",
+        "publishedAt": "2026-02-10",
         "seo": {
-            "metaTitle": "Cara Membuat Website dengan Next.js | Blog Udin",
-            "keywords": "nextjs",
-            "description": "Belajar membuat website modern menggunakan Next.js."
-        },
-        "discussion": true,
-        "featuredImage": "/images/blog1.jpg",
-        "createdAt": "2026-02-18T08:00:00",
-        "updatedAt": "2026-02-19T09:30:00"
-    },
-    {
-        "id": "B-000000002",
-        "title": "Belajar React untuk Pemula",
-        "slug": "belajar-react-untuk-pemula",
-        "excerpt": "Dasar-dasar React untuk kamu yang baru mulai belajar frontend.",
-        "content": "<h2>Apa itu React?</h2><p>React adalah library JavaScript untuk membangun user interface.</p><h3>Konsep Dasar</h3><ul><li>Component</li><li>Props</li><li>State</li></ul>",
-        "author": "udin.dev@gmail.com",
-        "categories": [
-            "Programming",
-            "React"
-        ],
-        "tags": [
-            "react",
-            "javascript",
-            "frontend"
-        ],
-        "status": "published",
-        "visibility": "public",
-        "password": null,
-        "publishedAt": "2026-02-18T14:00:00",
-        "seo": {
-            "metaTitle": "Belajar React untuk Pemula | Blog Udin",
-            "keywords": "react",
-            "description": "Panduan belajar React dari dasar hingga paham konsep component."
-        },
-        "discussion": true,
-        "featuredImage": "/images/blog2.jpg",
-        "createdAt": "2026-02-17T10:00:00",
-        "updatedAt": "2026-02-18T13:00:00"
-    },
-    {
-        "id": "B-000000003",
-        "title": "Tips Optimasi SEO untuk Blog",
-        "slug": "tips-optimasi-seo-blog",
-        "excerpt": "Strategi sederhana agar blog kamu muncul di halaman pertama Google.",
-        "content": "<h2>Pentingnya SEO</h2><p>SEO membantu website kamu lebih mudah ditemukan.</p><h3>Tips</h3><ul><li>Gunakan heading yang benar</li><li>Optimasi meta description</li><li>Gunakan keyword relevan</li></ul>",
-        "author": "admin@gmail.com",
-        "categories": [
-            "SEO",
-            "Marketing"
-        ],
-        "tags": [
-            "seo",
-            "google",
-            "blogging"
-        ],
-        "status": "draft",
-        "visibility": "public",
-        "password": null,
-        "publishedAt": null,
-        "seo": {
-            "metaTitle": "Tips Optimasi SEO untuk Blog | Blog Udin",
-            "keywords": "seo",
-            "description": "Pelajari cara optimasi SEO agar blog kamu naik ranking."
-        },
-        "discussion": true,
-        "featuredImage": "/images/blog3.jpg",
-        "createdAt": "2026-02-16T09:00:00",
-        "updatedAt": "2026-02-17T11:00:00"
-    },
-    {
-        "id": "B-000000004",
-        "title": "Mengenal Tailwind CSS",
-        "slug": "mengenal-tailwind-css",
-        "excerpt": "Framework CSS utility-first yang mempercepat proses styling.",
-        "content": "<h2>Apa itu Tailwind?</h2><p>Tailwind CSS adalah framework utility-first untuk styling cepat.</p><h3>Kelebihan</h3><ul><li>Customizable</li><li>Responsive</li><li>Ringan</li></ul>",
-        "author": "farid.tecB-000000001@gmail.com",
-        "categories": [
-            "CSS",
-            "Frontend"
-        ],
-        "tags": [
-            "tailwind",
-            "css",
-            "frontend"
-        ],
-        "status": "published",
-        "visibility": "private",
-        "password": null,
-        "publishedAt": "2026-02-15T16:00:00",
-        "seo": {
-            "metaTitle": "Mengenal Tailwind CSS | Blog Udin",
-            "keywords": "tailwind",
-            "description": "Belajar dasar Tailwind CSS untuk mempercepat styling website."
+            "metaTitle": "Build SaaS Dashboard with Next.js | Blog Udin",
+            "keywords": "nextjs saas dashboard",
+            "description": "Learn how to build a modern SaaS dashboard using Next.js."
         },
         "discussion": true,
         "featuredImage": "/images/blog4.jpg",
-        "createdAt": "2026-02-14T10:00:00",
-        "updatedAt": "2026-02-15T15:00:00"
+        "createdAt": "2026-02-08",
+        "updatedAt": "2026-02-09"
     },
     {
         "id": "B-000000005",
-        "title": "Membangun CMS Sederhana dengan Next.js",
-        "slug": "membangun-cms-sederhana-nextjs",
-        "excerpt": "Tutorial membuat sistem manajemen konten sederhana menggunakan Next.js.",
-        "content": "<h2>CMS dengan Next.js</h2><p>Kita bisa membuat CMS custom menggunakan API route dan database.</p><h3>Fitur</h3><ul><li>CRUD Post</li><li>Authentication</li><li>SEO Support</li></ul>",
-        "author": "udin.dev@gmail.com",
+        "title": "Improving SaaS Dashboard Performance and Speed",
+        "slug": "improving-saas-dashboard-performance",
+        "excerpt": "Tips and strategies to optimize the performance of a SaaS dashboard.",
+        "content": "<h2>Introduction</h2><p>Performance is a critical aspect of any SaaS dashboard. Slow dashboards reduce productivity and negatively impact user experience.</p><h2>Optimization Techniques</h2><ul><li><strong>Lazy Loading</strong> – Load components only when needed.</li><li><strong>Efficient Data Fetching</strong> – Use caching and optimized API calls.</li><li><strong>Code Splitting</strong> – Break large JavaScript bundles into smaller chunks.</li></ul><h2>Frontend Optimization</h2><p>Using frameworks like Next.js can help improve performance through server-side rendering, static generation, and optimized image loading.</p><p>Monitoring tools such as analytics dashboards and performance trackers can also help identify bottlenecks in your application.</p>",
+        "author": "admin@gmail.com",
         "categories": [
-            "Next.js",
-            "Backend"
+            "SaaS",
+            "Performance"
         ],
         "tags": [
-            "nextjs",
-            "cms",
-            "fullstack"
+            "performance",
+            "optimization",
+            "dashboard"
         ],
         "status": "published",
-        "visibility": "password",
-        "password": "12345",
-        "publishedAt": "2026-02-19T12:00:00",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": "2026-02-10",
         "seo": {
-            "metaTitle": "Membangun CMS dengan Next.js | Blog Udin",
-            "keywords": "nextjs",
-            "description": "Panduan membuat CMS sederhana menggunakan Next.js."
+            "metaTitle": "Improve SaaS Dashboard Performance | Blog Udin",
+            "keywords": "dashboard performance",
+            "description": "Learn how to optimize and improve the performance of your SaaS dashboard."
         },
         "discussion": true,
         "featuredImage": "/images/blog5.jpg",
-        "createdAt": "2026-02-18T12:00:00",
-        "updatedAt": "2026-02-19T11:00:00"
+        "createdAt": "2026-02-08",
+        "updatedAt": "2026-02-09"
+    },
+    {
+        "id": "B-000000006",
+        "title": "Best UI Components for Modern SaaS Dashboards",
+        "slug": "best-ui-components-saas-dashboard",
+        "excerpt": "Explore the most useful UI components that improve usability in SaaS dashboards.",
+        "content": "<h2>Introduction</h2><p>Modern SaaS dashboards rely on reusable UI components to deliver consistent and efficient user interfaces.</p><h2>Common Components</h2><ul><li><strong>Metric Cards</strong> – Display important numbers such as revenue or active users.</li><li><strong>Charts</strong> – Visualize trends and analytics.</li><li><strong>Tables</strong> – Present structured data like transactions or user lists.</li><li><strong>Notifications</strong> – Inform users about important events.</li></ul><h2>Design Tips</h2><p>Use consistent spacing, typography, and color systems across all components. This helps maintain a professional and modern interface.</p><p>Interactive elements such as filters, sorting options, and expandable sections can make the dashboard more powerful and user-friendly.</p>",
+        "author": "admin@gmail.com",
+        "categories": [
+            "UI/UX",
+            "SaaS"
+        ],
+        "tags": [
+            "ui",
+            "components",
+            "dashboard"
+        ],
+        "status": "published",
+        "visibility": "public",
+        "password": null,
+        "publishedAt": "2026-02-10",
+        "seo": {
+            "metaTitle": "Best UI Components for SaaS Dashboards | Blog Udin",
+            "keywords": "saas ui components",
+            "description": "Discover the best UI components for building modern SaaS dashboards."
+        },
+        "discussion": true,
+        "featuredImage": "/images/blog6.jpg",
+        "createdAt": "2026-02-08",
+        "updatedAt": "2026-02-09"
     }
 ]
