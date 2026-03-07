@@ -13,6 +13,7 @@ import SetExcerpt from "../../components/blog/setExcerpt"
 import SetAuthor from "../../components/blog/setAuthor";
 import { useRouter } from "next/navigation";
 import AddImages from "../../components/blog/addImages";
+import toast from "react-hot-toast";
 
 interface ContentType {
     title: string;
@@ -132,7 +133,7 @@ export default function Page() {
     async function addBlog() {
 
         if (!contents.title || !contents.content) {
-            alert("Semua Wajib di Isi")
+            toast.error("Please fill in all fields")
             return
         }
 

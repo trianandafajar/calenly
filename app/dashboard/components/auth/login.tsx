@@ -3,6 +3,7 @@
 import bcrypt from "bcryptjs"
 import Link from "next/link"
 import { useEffect, useState } from "react"
+import toast from "react-hot-toast"
 
 export default function LoginPage() {
 
@@ -25,7 +26,7 @@ export default function LoginPage() {
 
         const storedUsers = localStorage.getItem("users")
         if (!storedUsers) {
-            alert("User tidak ditemukan")
+            toast.error("User not found")
             return
         }
 
@@ -41,10 +42,10 @@ export default function LoginPage() {
                 username: user.username,
                 isLoggedIn: true
             }))
-            alert("Login berhasil")
+            toast.success("Login successful")
             window.location.href = "/dashboard"
         } else {
-            alert("Username atau password salah")
+            toast.error("Incorrect username or password")
         }
     }
 

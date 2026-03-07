@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import bcrypt from 'bcryptjs';
 import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 
 export default function RegisterPage() {
 
@@ -29,12 +30,12 @@ export default function RegisterPage() {
         e.preventDefault()
 
         if (password !== confirmPassword) {
-            alert("Passwords do not match")
+            toast.error("Passwords do not match")
             return
         }
 
         if (!username || !email || !password) {
-            alert("Please fill in all fields")
+            toast.error("Please fill in all fields")
             return
         }
 
