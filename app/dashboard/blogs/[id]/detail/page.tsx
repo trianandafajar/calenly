@@ -317,11 +317,11 @@ export default function Page() {
                 <div className="row">
                     <div className="col-xl-12">
                         <div className="mb-4">
-                            <ul className="d-flex align-items-center flex-wrap">
-                                <li><Link href="/dashboard/blogs" className="btn btn-primary btn-sm">Blog List</Link></li>
-                                <li><Link href="blog-categories" className="btn btn-primary btn-sm mx-1">Blog Category</Link></li>
-                                <li><a href="" className="btn btn-primary btn-sm open mt-1 mt-md-0">Screen Option</a></li>
-                            </ul>
+                            <li>
+                                <Link href="/dashboard/blogs" className="btn btn-primary btn-sm">
+                                    <i className="fa fa-arrow-left me-1"></i> Back
+                                </Link>
+                            </li>
                         </div>
                         <div className="main-check" style={{ display: "none" }}>
                             <div className="row">
