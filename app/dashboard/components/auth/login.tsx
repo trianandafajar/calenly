@@ -16,8 +16,8 @@ export default function LoginPage() {
         }
     }, [])
 
-    const [username, setUsername] = useState("")
-    const [password, setPassword] = useState("")
+    const [username, setUsername] = useState("admin")
+    const [password, setPassword] = useState("password")
     const [showPassword, setShowPassword] = useState(false)
 
     const handleLogin = async (e: React.FormEvent) => {
