@@ -13,6 +13,7 @@ export default function page() {
     const [activeTitle, setActiveTitle] = useState<string | null>(null)
     const [isHovering, setIsHovering] = useState(false)
     const [templateEvents, setTemplateEvents] = useState<any[]>([])
+    const [currentView, setCurrentView] = useState("dayGridMonth")
 
     const [events, setEvents] = useState<any[]>([])
 
@@ -42,12 +43,17 @@ export default function page() {
             }
 
             calendarRef.current = new FullCalendar.Calendar(calendarEl, {
-                initialView: "dayGridMonth",
+                initialView: currentView,
                 headerToolbar: {
                     left: "prev,next today",
                     center: "title",
                     right: "dayGridMonth,timeGridWeek,timeGridDay",
                 },
+
+                datesSet: function (info: any) {
+                    setCurrentView(info.view.type)
+                },
+
                 editable: true,
                 droppable: true,
                 selectable: true,
@@ -129,6 +135,8 @@ export default function page() {
             }
         }
     }, [events])
+
+    console.log("curent view:", currentView)
 
     useEffect(() => {
         function initSelect() {
