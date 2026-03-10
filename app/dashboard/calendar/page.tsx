@@ -82,6 +82,8 @@ export default function page() {
 
                 eventReceive: function (info: any) {
 
+                    info.event.remove()
+
                     const newEvent = {
                         id: "CE-" + String(Date.now()).slice(-9),
                         eventName: info.event.title,
