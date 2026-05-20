@@ -3,9 +3,9 @@
 =====================*/
 :root{
 	--bg-color: #ed5ab0;
-	--bg-color-sc: #3d56f0;
-	--text-color-sc: #3d56f0;
-	--bg-color-ho: #3d56f0;
+	--bg-color-sc: #a590cf;
+	--text-color-sc: #a590cf;
+	--bg-color-ho: #755ba6;
 	--text-color: #ed5ab0;
 }
 
@@ -110,7 +110,7 @@
     background-color: #8d72f9;
 }
 .about-us .dlab-tabs .nav-tabs li a.active{
-	border-right: 4px solid #3d56f0;
+	border-right: 4px solid #886CC0;
 }
 .btn.outline:hover{
 	border-color: #8d72f9;

@@ -2,11 +2,11 @@
 	Premery bg color 
 =====================*/
 :root{
-	--bg-color: #7450fe;
-	--bg-color-sc: #3d56f0;
-	--text-color-sc: #3d56f0;
-	--bg-color-ho: #3d56f0;
-	--text-color: #7450fe;
+	--bg-color: #886CC0;
+	--bg-color-sc: #a590cf;
+	--text-color-sc: #a590cf;
+	--bg-color-ho: #755ba6;
+	--text-color: #886CC0;
 }
 
 /* Hex */
@@ -80,7 +80,25 @@
 .lg-actions .lg-prev, 
 .lg-sub-html, 
 .lg-toolbar{
-    background-color: #7450fe;
+    background-color: #886CC0;
+}
+/* Override Bootstrap btn-primary to match theme purple color */
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled){
+    background-color: #886CC0;
+    border-color: #886CC0;
+    color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #755ba6;
+    border-color: #755ba6;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(136, 108, 192, 0.35);
 }
 /*Hex color :hover */
 .btn:active,
@@ -108,16 +126,16 @@
 .overlay-primary-middle:after, 
 .overlay-primary-dark:after,
 .overlay-primary:after{
-    background-color: #8869ff;
+    background-color: #755ba6;
 }
 .about-us .dlab-tabs .nav-tabs li a.active{
-	border-right: 4px solid #3d56f0;
+	border-right: 4px solid #886CC0;
 }
 .btn.outline:hover{
-	border-color: #8869ff;
+	border-color: #755ba6;
 }
 .btn-aware:hover span {
-	background:#8869ff;
+	background:#755ba6;
 }
 /* Rgba color */
 .dlab-info-has.bg-primary,
@@ -185,7 +203,7 @@ h6 a:hover,
 .btn.white,
 .lg-outer .lg-toogle-thumb,
 .lg-outer .lg-toogle-thumb:hover{
-    color: #7450fe;
+    color: #886CC0;
 }
 
 @media only screen and (max-width: 991px) {
@@ -231,7 +249,7 @@ input[type="radio"] + label:hover:before,
 }
 .lg-outer .lg-thumb-item.active, 
 .lg-outer .lg-thumb-item:hover{
-	border-color: #7450fe;
+	border-color: #886CC0;
 }
 
 /*===================== 
@@ -244,16 +262,16 @@ input[type="radio"] + label:hover:before,
 
 /* Gradient Color */
 .btn-gradient{
-	background: rgb(110,100,254); /* Old browsers */
-	background: -moz-linear-gradient(left,  rgba(110,100,254,1) 1%, rgba(244,120,145,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  rgba(110,100,254,1) 1%,rgba(244,120,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  rgba(110,100,254,1) 1%,rgba(244,120,145,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e64fe', endColorstr='#f47891',GradientType=1 ); /* IE6-9 */
+	background: rgb(136, 108, 192); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(136, 108, 192, 1) 1%, rgba(165, 144, 207, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(136, 108, 192, 1) 1%,rgba(165, 144, 207, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(136, 108, 192, 1) 1%,rgba(165, 144, 207, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#886cc0', endColorstr='#a590cf',GradientType=1 ); /* IE6-9 */
 }
 .btn-gradient:hover{
-	background: rgb(110,100,254); /* Old browsers */
-	background: -moz-linear-gradient(left,  rgba(244,120,145,) 1%, rgba(110,100,254,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  rgba(244,120,145,1) 1%,rgba(110,100,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  rgba(244,120,145,1) 1%,rgba(110,100,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e64fe', endColorstr='#f47891',GradientType=1 ); /* IE6-9 */
+	background: rgb(165, 144, 207); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(165, 144, 207, 1) 1%, rgba(136, 108, 192, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(165, 144, 207, 1) 1%,rgba(136, 108, 192, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(165, 144, 207, 1) 1%,rgba(136, 108, 192, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a590cf', endColorstr='#886cc0',GradientType=1 ); /* IE6-9 */
 }

@@ -43,7 +43,7 @@ export default function page() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.2s">
                                     <div className="icon-bx-wraper service-box bg-white shadow radius-md">
                                         <div className="icon-lg icon-bx gradient-one m-b20">
-                                            <a href="javascript:void(0)" className="icon-cell"><i className="fa fa-mobile"></i></a>
+                                            <a href="#" onClick={(e) => e.preventDefault()} className="icon-cell"><i className="fa fa-mobile"></i></a>
                                         </div>
                                         <div className="icon-content">
                                             <h2 className="dlab-tilte">Team Management</h2>
@@ -54,7 +54,7 @@ export default function page() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="icon-bx-wraper service-box bg-white shadow radius-md">
                                         <div className="icon-lg icon-bx gradient-two m-b20">
-                                            <a href="javascript:void(0)" className="icon-cell"><i className="fa fa-diamond"></i></a>
+                                            <a href="#" onClick={(e) => e.preventDefault()} className="icon-cell"><i className="fa fa-diamond"></i></a>
                                         </div>
                                         <div className="icon-content">
                                             <h2 className="dlab-tilte">Ease of use</h2>
@@ -65,7 +65,7 @@ export default function page() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.6s">
                                     <div className="icon-bx-wraper service-box bg-white shadow radius-md">
                                         <div className="icon-lg icon-bx gradient-three m-b20">
-                                            <a href="javascript:void(0)" className="icon-cell"><i className="fa fa-wrench"></i></a>
+                                            <a href="#" onClick={(e) => e.preventDefault()} className="icon-cell"><i className="fa fa-wrench"></i></a>
                                         </div>
                                         <div className="icon-content">
                                             <h2 className="dlab-tilte">Customizable</h2>

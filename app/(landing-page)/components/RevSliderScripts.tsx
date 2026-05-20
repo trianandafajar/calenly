@@ -39,12 +39,30 @@ export default function RevSliderScripts() {
                 id="rev-init"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{
-                                __html: `
-                jQuery(document).ready(function() {
-                    if (typeof dz_rev_slider_1 === "function") {
-                    dz_rev_slider_1();
+                    __html: `
+                (function () {
+                    var attempts = 0;
+                    var maxAttempts = 50;
+
+                    function initRevSlider() {
+                        var jq = window.jQuery || window.$;
+                        if (!jq) {
+                            attempts += 1;
+                            if (attempts < maxAttempts) {
+                                setTimeout(initRevSlider, 100);
+                            }
+                            return;
+                        }
+
+                        jq(function () {
+                            if (typeof window.dz_rev_slider_1 === "function") {
+                                window.dz_rev_slider_1();
+                            }
+                        });
                     }
-                });
+
+                    initRevSlider();
+                })();
                 `,
                 }}
             />

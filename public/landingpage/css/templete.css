@@ -417,7 +417,7 @@ ul{
 	bottom:30px;
 }
 .dlab-img-overlay1.primary:before{
-	background-color: #7450fe;
+	background-color: #886CC0;
 }
 .team-box.style2 .team-title {
 	margin-bottom: 0;
@@ -479,7 +479,7 @@ ul{
 }
 .owl-btn-2 .owl-prev:hover, 
 .owl-btn-2 .owl-next:hover {
-	border-color:#7450fe;
+	border-color:#886CC0;
 }
 /* pricing table */
 .pricingtable-wrapper .pricingtable-price {
@@ -965,7 +965,7 @@ footer .widget_services ul li:hover {
 .project-box1 .icon-bx {
     height: 60px;
     width: 60px;
-    background-color: #7450fe;
+    background-color: #886CC0;
     display: block;
     border-radius: 50px;
     font-size: 24px;
@@ -1147,7 +1147,7 @@ footer .widget_services ul li:hover {
     height: 340px;
     width: 340px;
     border-radius: 100%;
-    background-color: #7450fe;
+    background-color: #886CC0;
     margin: auto;
     display: flex;
     align-items: center;
@@ -1287,7 +1287,7 @@ footer .widget_services ul li:hover {
 	color: #adadad;
 }
 .blog-post .social-share li:hover a{
-	color: #7450fe;
+	color: #886CC0;
 }
 .blog-post .social-share p{
 	font-size: 18px;
@@ -1560,7 +1560,7 @@ footer .widget_services ul li:hover {
 }
 .contact-box.style1 form .form-control:focus,
 .contact-box.style1 form .form-control:hover{
-	border-color: #7450fe;
+	border-color: #886CC0;
 }
 /* side-bar */
 .side-bar {
@@ -1703,7 +1703,7 @@ footer .widget_services ul li:hover {
     width: 0;
     height: 0;
     border-radius: 50%;
-    background-color: #8d72f9;
+    background-color: #886CC0;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);

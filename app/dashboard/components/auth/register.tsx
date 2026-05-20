@@ -58,23 +58,23 @@ export default function RegisterPage() {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-5 col-md-6">
-                            <div className="card mb-0 h-auto">
-                                <div className="card-body">
-                                    <div className="text-center mb-3">
-                                        <Link href="/dashboard"><img className="logo-auth" src="/dashboard/images/lightlogo.png" alt="" /></Link>
+                            <div className="card mb-0 h-auto border-0 rounded-3xl" style={{ backdropFilter: "blur(20px)", background: "rgba(255, 255, 255, 0.96)", boxShadow: "0 20px 50px -15px rgba(136, 108, 192, 0.15), 0 0 0 1px rgba(136, 108, 192, 0.08)" }}>
+                                <div className="card-body p-5">
+                                    <div className="text-center mb-4">
+                                        <Link href="/dashboard"><img className="logo-auth mb-2" src="/dashboard/images/lightlogo.png" alt="" /></Link>
                                     </div>
-                                    <h4 className="text-center mb-4">Sign up your account</h4>
+                                    <h4 className="text-center font-extrabold text-zinc-900 tracking-tight mb-4">Sign up your account</h4>
                                     <form onSubmit={handleSubmit}>
                                         <div className="form-group mb-4">
-                                            <label className="form-label" htmlFor="username">Username</label>
+                                            <label className="form-label font-bold text-xs uppercase tracking-wider text-zinc-500" htmlFor="username">Username</label>
                                             <input value={username} onChange={(e) => setUsername(e.target.value)} type="text" className="form-control" placeholder="Enter username" id="username" />
                                         </div>
                                         <div className="form-group mb-4">
-                                            <label className="form-label" htmlFor="email">Email</label>
+                                            <label className="form-label font-bold text-xs uppercase tracking-wider text-zinc-500" htmlFor="email">Email</label>
                                             <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" className="form-control" placeholder="hello@example.com" id="email" />
                                         </div>
                                         <div className="mb-sm-4 mb-3 position-relative">
-                                            <label className="form-label" htmlFor="dlab-password">Password</label>
+                                            <label className="form-label font-bold text-xs uppercase tracking-wider text-zinc-500" htmlFor="dlab-password">Password</label>
                                             <input placeholder="••••••••" value={password} onChange={(e) => setPassword(e.target.value)} type={showPassword ? "text" : "password"} id="dlab-password" className="form-control" />
                                             <span className="show-pass eye" onClick={() => setShowPassword(!showPassword)}>
                                                 <i className={showPassword ? "fa fa-eye" : "fa fa-eye-slash"}></i>
@@ -82,18 +82,20 @@ export default function RegisterPage() {
                                         </div>
 
                                         <div className="mb-sm-4 mb-3 position-relative">
-                                            <label className="form-label" htmlFor="dlab-password">Confirm Password</label>
-                                            <input placeholder="••••••••" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type={showConfirmPassword ? "text" : "password"} id="dlab-password" className="form-control" />
+                                            <label className="form-label font-bold text-xs uppercase tracking-wider text-zinc-500" htmlFor="dlab-password-confirm">Confirm Password</label>
+                                            <input placeholder="••••••••" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type={showConfirmPassword ? "text" : "password"} id="dlab-password-confirm" className="form-control" />
                                             <span className="show-pass eye" onClick={() => setShowConfirmPassword(!showConfirmPassword)}>
                                                 <i className={showConfirmPassword ? "fa fa-eye" : "fa fa-eye-slash"}></i>
                                             </span>
                                         </div>
-                                        <div className="text-center">
-                                            <button type="submit" className="btn btn-primary btn-block">Sign up</button>
+                                        <div className="text-center mt-4">
+                                            <button type="submit" className="btn btn-primary btn-block w-full py-3.5 flex items-center justify-center gap-2">
+                                                Sign up <i className="fa fa-arrow-right text-xs"></i>
+                                            </button>
                                         </div>
                                     </form>
-                                    <div className="new-account mt-3">
-                                        <p>Already have an account? <Link className="text-primary" href="login">Sign in</Link></p>
+                                    <div className="new-account mt-4 text-center">
+                                        <p className="text-sm text-zinc-500">Already have an account? <Link className="text-[#886CC0] font-bold hover:underline" href="login">Sign in</Link></p>
                                     </div>
                                 </div>
                             </div>

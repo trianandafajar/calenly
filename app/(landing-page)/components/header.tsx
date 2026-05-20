@@ -1,13 +1,15 @@
 "use client"
 
-import { ro } from "date-fns/locale"
 import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
 export default function Header() {
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const [username, setUsername] = useState("")
+    const pathname = usePathname()
+    const isHome = pathname === "/"
+
     useEffect(() => {
         const session = localStorage.getItem("session")
 
@@ -35,6 +37,28 @@ export default function Header() {
 
     const login = () => {
         window.location.href = "/auth/login"
+    }
+
+    const getLink = (hash: string) => {
+        if (hash === "#") return isHome ? "#" : "/"
+        return isHome ? hash : `/${hash}`
+    }
+
+    const renderMenuLink = (hash: string, label: string) => {
+        const href = getLink(hash)
+        if (isHome) {
+            return (
+                <Link href={href}>
+                    <span>{label}</span>
+                </Link>
+            )
+        }
+
+        return (
+            <a href={href}>
+                <span>{label}</span>
+            </a>
+        )
     }
 
     return (
@@ -81,14 +105,13 @@ export default function Header() {
                                     <span className="dez-page"><img src="/landingpage/images/logo.png" alt="" /></span>
                                 </div>
                                 <ul className="nav navbar-nav">
-                                    <li><a href="#"><span>Home</span></a></li>
-                                    {/* <li><a href="#services"><span>Services</span></a></li> */}
-                                    <li><a href="#about"><span>About</span></a></li>
-                                    <li><a href="#experience"><span>Experience</span></a></li>
-                                    <li><a href="#features"><span>Features</span></a></li>
-                                    <li><a href="#testimonials"><span>Testimonials</span></a></li>
-                                    <li><a href="#projects"><span>Projects</span></a></li>
-                                    <li><a href="#announcements"><span>Announcements</span></a></li>
+                                    <li>{renderMenuLink("#", "Home")}</li>
+                                    <li>{renderMenuLink("#about", "About")}</li>
+                                    <li>{renderMenuLink("#experience", "Experience")}</li>
+                                    <li>{renderMenuLink("#features", "Features")}</li>
+                                    <li>{renderMenuLink("#testimonials", "Testimonials")}</li>
+                                    <li>{renderMenuLink("#projects", "Projects")}</li>
+                                    <li>{renderMenuLink("#announcements", "Announcements")}</li>
                                 </ul>
                             </div>
                         </div>
